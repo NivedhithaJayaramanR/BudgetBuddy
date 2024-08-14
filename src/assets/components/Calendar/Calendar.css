@@ -1,0 +1,30 @@
+.react-datepicker-wrapper {
+  width: 100%;
+}
+.react-datepicker__month-container {
+  font-size: 1.6rem;
+}
+.react-datepicker__input-container input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  font-size: 1.8rem;
+}
+.react-datepicker {
+  display: inline-block;
+}
+.react-datepicker-popper {
+  background-color: transparent;
+}
+.react-datepicker__month {
+  background-color: rosybrown;
+  margin: 0;
+  padding: 1rem;
+}
+
+.react-datepicker__day--today {
+  background-color: #ffff00;
+  border-radius: 0.3em;
+}

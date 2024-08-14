@@ -1,0 +1,161 @@
+/* Services.css */
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  /* font-family: 'Arial', sans-serif; */
+  text-align: center;
+  margin-top: 4rem;
+ /* font-size: smaller; */
+  
+  /* background-color: #d14; */
+  /* background-color: rgb(148, 196, 148);  */
+  
+}
+
+.services-header {
+  margin-bottom: 50px;
+  font-size: 5px;
+
+}
+
+.services-header h1 {
+  /* font-size: 2.5em; */
+  /* color: black; */
+  font-size: 2px;
+  color: black
+}
+
+.services-header p {
+  font-size: 1.2em;
+  color: #ccc;
+  
+}
+
+.services-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.service-card {
+  /* background-color: #222; */
+  /* background-color:  rgb(148, 196, 148); */
+  background-image: url("data:image/jpeg;base64,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");
+  
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #fff;
+ 
+}
+
+/*.service-card.active {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  width: 500px;
+}
+*/
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service-icon {
+  font-size: 3em;
+  /* color: #fff; */
+color:  rgb(230, 237, 230);
+  margin-bottom: 20px;
+}
+
+.service-card h2 {
+  font-size: 1.5em;
+  color: #fff;
+  margin-bottom: 100px;
+  margin-top: 0%;
+ 
+}
+
+
+.service-card p {
+  /* font-size: 1em; */
+  /* color: #aaa; */
+  color: black;
+font-size: 12px;
+font-weight: bold;
+
+}
+h1.heading {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-family: Poppins, sans-serif;
+  margin-bottom: 10px;
+  
+}
+/* body{
+  background-image: url("https://wallpapercave.com/wp/wc1745112.jpg");
+} */
+
+.title {
+  font-size: 2.5em;
+  color: #ff4b2b; /* Choose a color that fits your theme */
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect */
+}
+/* Styles for paragraphs */
+.para {
+  font-size: 1em; /* Adjust size as needed */
+  /* color: #333;  */
+  color: black;
+  /* Choose a color that fits your theme */
+  line-height: 1.6; /* Ensures good readability */
+  margin: 20px 0; /* Adjust margin as needed */
+  text-align: justify; /* Justify text for neat alignment */
+  font-family: 'Arial', sans-serif; /* Choose a font that fits your theme */
+  max-width: 800px; /* Optional: Limit the width of paragraphs for better readability */
+  padding: 0 20px; /* Optional: Add padding for spacing */
+}
+/* Default link style */
+.a {
+  /* color: #d9d7ed; */
+  color: black; /* Blue color for the link */
+  text-decoration: line-through; /* Remove underline */
+  text-align: end;
+}
+
+/* Hover style */
+.a:hover {
+  color: #d14; /* Darker color on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Visited link style */
+.a:visited {
+  color: black; /* Purple color for visited links */
+}
+
+/* Active link style */
+.a:active {
+  color: #f00; /* Red color when the link is being clicked */
+}
+
+
+
+/* src/components/CardContainer.css */
+ /*.services-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3em;
+  border: 2px solid black;
+  border-radius: 50px;
+  background-color: #f9f9f9;
+  
+} */
